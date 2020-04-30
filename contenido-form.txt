@@ -1,0 +1,61 @@
+¿De dónde sos?
+Seleccioná una opción
+Córdoba
+Buenos Aires
+Otro
+<Select name="origen">	
+option value="Cba">Cordoba</option>
+
+
+¿Qué te pareció la iluminación del ambiente?
+Muy Acorde
+Buena, pero podria mejorar
+Mala
+
+¿Que plato te gustó más?
+Entrada
+Principal
+Postre
+Otros
+
+¿Nos recomendarías?
+Si
+No
+
+¿Queres comentarnos algo más?
+Campo de texto
+<textarea name="mensaje"></textarea>
+
+Si querés, dejanos tus datos para futuras promos!
+Nombre tu nombre
+Email tu email
+
+ENVIAR
+RESETEAR
+
+
+
+<form action="validar.php" method="POST">
+<input type="" name="">
+<label>Nombre:</label>
+<input type="text" name="nombre-user" id="nombre">
+<input type="email" name="mail">
+<input type="tel" name="telefono">
+<input type="number" name="edad">
+
+
+<button type="submit">Enviar</button>
+<button type="reset">Resetear</button>
+
+boton si o no
+input type="radio" name="asistio" value="si"
+input type="checkbox" name="hobbies" value="cantar"
+
+</form>
+
+
+
+
+
+
+
